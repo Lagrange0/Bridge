@@ -1,6 +1,6 @@
 # [AutoSVT]Carla-Apollo-Bridge
 
-This project is designed to connect [AutoSVT-Carla](https://github.com/idslab-autosec/AutoSVT-Carla) (v0.9.14) and [Apollo](https://github.com/ApolloAuto/apollo) (v8.0.0) for co-simulation. AutoSVT-Carla, based on the original Carla, incorporates a first-principles-based LiDAR simulation that can simulate the **impact of fog on LiDAR**, allowing for testing the performance of autonomous driving systems in adverse weather conditions. 
+This project is designed to connect [AutoSVT-Carla](https://anonymous.4open.science/r/AutoSVT-Carla-0B48/README.md) (v0.9.14) and [Apollo](https://github.com/ApolloAuto/apollo) (v8.0.0) for co-simulation. AutoSVT-Carla, based on the original Carla, incorporates a first-principles-based LiDAR simulation that can simulate the **impact of fog on LiDAR**, allowing for testing the performance of autonomous driving systems in adverse weather conditions. 
 
 Our simulation encompasses all modules from perception to control. Carla sends sensor data such as images, point clouds, and vehicle chassis information to Apollo, while Apollo sends control commands to Carla.
 
@@ -13,9 +13,7 @@ Our simulation encompasses all modules from perception to control. Carla sends s
 
 
 ### 1. Install AutoSVT-Carla
-```bash
-docker pull idslabautosec/carla-fog:v1
-```
+Please follow [AutoSVT-Carla](https://anonymous.4open.science/r/AutoSVT-Carla-0B48/README.md) for installation.
 
 ### 2. Install Apollo
 Please follow the [official Apollo documentation](https://github.com/ApolloAuto/apollo) for installation.
